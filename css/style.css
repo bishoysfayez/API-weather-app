@@ -1,0 +1,92 @@
+/* 
+    // Route - Full stack diploma C38 - SAT & TUE - ALEX
+    // Date : 11-June-2022
+    // Assignment # 9 - JS - APIs Weather App
+    // Name : Bishoy Saeed Fayez
+    // e-mail : bishoysfayez@gmail.com 
+    // Mobile & Whatsapp : 01211351223
+    
+    */
+
+
+.navbar-brand img{
+    width: 10px;
+    margin: 0px 0px 0px 10px ;
+}
+.navbar-brand{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    
+}
+.logo-container{
+    margin-left: 0!important;
+    width: 100px !important;
+}
+.section-2{
+    background-image: url(../bg.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    /* height: 1000px; */
+}
+.section-2 .container{
+    width: 70%;
+    /* background-color: rgba(50, 50, 50, 0.1); */
+    padding: 20px 0;
+}
+.section-2 .container #input-city{
+    /* width: 75%; */
+    font-size: 26px;
+    color:black;
+    background-color: rgba(241, 212, 200, 0.8);
+}
+
+
+@media screen and (min-width: 768px) {
+    .navbar-brand{
+        margin-right: 400px;
+    }
+}
+
+.text-end{
+    text-align: right;
+}
+.weather-card{
+    /* border: 1px solid red!important; */
+    /* background-color: #14213d!important; */
+    border-radius: 10px;
+    /* background-color: #ee9403; */
+    
+}
+#search-go{
+    background-color: #fca311;
+    /* text-shadow: 2px 2px #14213d, -2px -2px #14213d; */
+    /* color: #14213d!important; */
+}
+#search-go:hover{
+    color: #ee9403!;
+    background-color: #14213d!important;
+}
+#input-city{
+    background-color: #e5e5e5!important;
+}
+.row-of-results{
+    font-size: larger;
+}
+.alert-section{
+    background-color: #14213d;
+}
+.bg-color-1{
+    background-color: #003566;
+}
+.bg-color-2{
+    background-color: #006494 ;
+}
+.bg-color-3{
+    background-color: #00a6fb;
+}
+

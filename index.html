@@ -1,0 +1,111 @@
+<!-- // Route - Full stack diploma C38 - SAT & TUE - ALEX
+// Date : 11-June-2022
+// Assignment # 9 - JS - APIs Weather App
+// Name : Bishoy Saeed Fayez
+// e-mail : bishoysfayez@gmail.com 
+// Mobile & Whatsapp : 01211351223 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container-fluid mx-0 px-0 section-1">
+
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid d-flex flex-row align-content-between justify-content-between">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand flex" href="#">
+                  <div class="container-fluid logo-container w-25 rounded-circle">
+                     <img src="logo.png" class="w-100 rounded float-start" alt="" srcset="">  
+                  </div>
+                  <div class="ms-4 fw-bolder">
+                    <div class="fs-3">Weather App</div>
+                  </div>
+
+               </a>
+              <div class="collapse navbar-collapse"  id="navbarTogglerDemo03">
+
+
+                <ul class="navbar-nav d-flex">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <section class="section-2 container-fluid">
+            <div class="clearfix">.</div>
+   
+            <form>
+              <div class="container row mx-auto">
+                    <div class="mb-1 col-sm-12 col-md-10 mx-2 d-inline-block w-75">
+                      <input type="text" placeholder ="Search City"  id="input-city" aria-describedby="emailHelp" class="form-control py-1" >
+                    </div>
+                    <div class="col-sm-12 mx-auto col-md-2">
+                        <input type="button" value="Search" id="search-go" class="px-5 border-0 fs-4 rounded-pill fw-bolder text-light py-2">
+
+                    </div>
+                    <div class="clearfix"></div>
+                
+              </div>
+            </form> 
+            <!-- cities results  -->
+            <div class="container alert-section">
+              <p class="text-center fw-bold bg-light">search city above or choose a suggestion</p>
+              <div class="bg-dark align-items-baseline justify-content-start opacity-75 cities-results"> 
+                           
+              </div>
+
+            </div>
+            <!-- --- weather view ---- -->
+    
+        <div class="container-fluid section-3 results p-2 m-2">
+
+
+
+        </div>
+    
+        </section>
+        
+        
+    </div>
+    
+<div class="clearfix"></div>
+    <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+<div class="clearfix"></div>
+    
+    Powered by <a href="https://www.weatherapi.com/" class ="mx-2" title="Free Weather API">WeatherAPI.com</a>
+    <a href="https://www.weatherapi.com/" title="Free Weather API"><img src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com" border="0"></a>
+
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
