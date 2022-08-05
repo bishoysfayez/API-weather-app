@@ -29,7 +29,7 @@ cityInput.addEventListener('change', (event) => {
 // function to get cities 
 
 async function getCity(cityValue){
-  var cityResponse = await fetch(`http://api.weatherapi.com/v1/search.json?key=23b03007334245b49d472248220906&&q=${cityValue}`)
+  var cityResponse = await fetch(`https://api.weatherapi.com/v1/search.json?key=23b03007334245b49d472248220906&&q=${cityValue}`)
   var cityArray = (await cityResponse.json());
   var city = cityArray[0].name;
   //console.log(cityArray);
@@ -190,7 +190,7 @@ async function getWeather(city){
 
 // get city suggestions only witgout API 
 async function getCitySuggestionOnly(cityValue){
-  var cityResponse = await fetch(`http://api.weatherapi.com/v1/search.json?key=23b03007334245b49d472248220906&&q=${cityValue}`)
+  var cityResponse = await fetch(`https://api.weatherapi.com/v1/search.json?key=23b03007334245b49d472248220906&&q=${cityValue}`)
   var cityArray = (await cityResponse.json());
   var city = cityArray[0].name;
   //console.log(cityArray);
